@@ -1,0 +1,21 @@
+2024-11-14 09:26:24.495897-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from produto p1_0 where p1_0.id=? [42104-224]
+2024-11-14 09:31:43.376235-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select count(*) from cliente c1_0 where c1_0.id=? [42104-224]
+2024-11-14 09:33:03.177349-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.contato,c1_0.email,c1_0.nome from cliente c1_0 where c1_0.id=? [42104-224]
+2024-11-14 09:44:07.909009-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from produto p1_0 where p1_0.id=? [42104-224]
+2024-11-19 11:20:30.304273-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from produto p1_0 where p1_0.id=? [42104-224]
+2024-11-20 10:19:11.306832-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.contato,c1_0.email,c1_0.nome from cliente c1_0 where c1_0.id=? [42104-224]
+2024-11-20 10:45:32.130076-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.contato,c1_0.email,c1_0.nome from cliente c1_0 where c1_0.id=? [42104-224]
